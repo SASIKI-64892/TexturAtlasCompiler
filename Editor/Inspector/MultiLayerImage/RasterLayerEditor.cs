@@ -6,11 +6,10 @@ namespace net.rs64.TexTransTool.Editor.MultiLayerImage
 {
     [CustomEditor(typeof(RasterLayer))]
     [CanEditMultipleObjects]
-    internal class RasterLayerEditor : UnityEditor.Editor
+    internal class RasterLayerEditor : AbstractLayerEditor
     {
         public override void OnInspectorGUI()
         {
-            TextureTransformerEditor.DrawerWarning("MultiImageLayer".GetLocalize());
             base.OnInspectorGUI();
 
             var thisTarget = target as RasterLayer;
@@ -22,11 +21,10 @@ namespace net.rs64.TexTransTool.Editor.MultiLayerImage
     }
     [CustomEditor(typeof(RasterImportedLayer))]
     [CanEditMultipleObjects]
-    internal class RasterImportedLayerEditor : UnityEditor.Editor
+    internal class RasterImportedLayerEditor : AbstractLayerEditor
     {
         public override void OnInspectorGUI()
         {
-            TextureTransformerEditor.DrawerWarning("MultiImageLayer".GetLocalize());
             base.OnInspectorGUI();
 
             var thisTarget = target as RasterImportedLayer;
