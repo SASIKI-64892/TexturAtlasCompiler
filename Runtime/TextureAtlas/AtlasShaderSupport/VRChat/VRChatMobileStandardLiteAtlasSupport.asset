@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2369c186c1ab3c44b9ef86b3a8cbccf, type: 3}
+  m_Name: VRChatMobileStandardLiteAtlasSupport
+  m_EditorClassIdentifier: 
+  TTTSaveDataVersion: 5
+  SupportedShaderComparer:
+    rid: 5350865774560935961
+  Priority: 0
+  AtlasTargetDefines:
+  - TexturePropertyName: _MainTex
+    AtlasDefineConstraints:
+      rid: 7150698656081904301
+    IsNormalMap: 0
+    BakePropertyNames:
+    - _Color
+    - _MainColorAdjustMask
+    - _MainTexHSVG
+    BakePropertyDescriptions: []
+  - TexturePropertyName: _MetallicGlossMap
+    AtlasDefineConstraints:
+      rid: 5123654517486256170
+    IsNormalMap: 0
+    BakePropertyNames:
+    - _Color
+    - _MainColorAdjustMask
+    - _MainTexHSVG
+    BakePropertyDescriptions: []
+  - TexturePropertyName: _BumpMap
+    AtlasDefineConstraints:
+      rid: 5123654517486256184
+    IsNormalMap: 1
+    BakePropertyNames:
+    - _Color
+    - _MainColorAdjustMask
+    - _MainTexHSVG
+    BakePropertyDescriptions: []
+  - TexturePropertyName: _OcclusionMap
+    AtlasDefineConstraints:
+      rid: 5123654517486256183
+    IsNormalMap: 0
+    BakePropertyNames:
+    - _Color
+    - _MainColorAdjustMask
+    - _MainTexHSVG
+    BakePropertyDescriptions: []
+  - TexturePropertyName: _DetailMask
+    AtlasDefineConstraints:
+      rid: 5123654517486256182
+    IsNormalMap: 0
+    BakePropertyNames:
+    - _Color
+    - _MainColorAdjustMask
+    - _MainTexHSVG
+    BakePropertyDescriptions: []
+  - TexturePropertyName: _EmissionMap
+    AtlasDefineConstraints:
+      rid: 5123654517486256181
+    IsNormalMap: 0
+    BakePropertyNames:
+    - _Color
+    - _MainColorAdjustMask
+    - _MainTexHSVG
+    BakePropertyDescriptions: []
+  - TexturePropertyName: _DetailAlbedoMap
+    AtlasDefineConstraints:
+      rid: 5123654517486256179
+    IsNormalMap: 0
+    BakePropertyNames:
+    - _Color
+    - _MainColorAdjustMask
+    - _MainTexHSVG
+    BakePropertyDescriptions: []
+  - TexturePropertyName: _DetailNormalMap
+    AtlasDefineConstraints:
+      rid: 5123654517486256180
+    IsNormalMap: 1
+    BakePropertyNames:
+    - _Color
+    - _MainColorAdjustMask
+    - _MainTexHSVG
+    BakePropertyDescriptions: []
+  BakeShader: {fileID: 0}
+  AtlasMaterialPostProses: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 5123654517486256168
+      type: {class: ContainsName, ns: net.rs64.TexTransTool.TextureAtlas.AtlasScriptableObject,
+        asm: net.rs64.tex-trans-tool.runtime}
+      data:
+        Name: VRChat/Mobile/Standard Lite
+    - rid: 5123654517486256170
+      type: {class: Anything, ns: net.rs64.TexTransTool.TextureAtlas.AtlasScriptableObject,
+        asm: net.rs64.tex-trans-tool.runtime}
+      data: 
+    - rid: 5123654517486256179
+      type: {class: Anything, ns: net.rs64.TexTransTool.TextureAtlas.AtlasScriptableObject,
+        asm: net.rs64.tex-trans-tool.runtime}
+      data: 
+    - rid: 5123654517486256180
+      type: {class: Anything, ns: net.rs64.TexTransTool.TextureAtlas.AtlasScriptableObject,
+        asm: net.rs64.tex-trans-tool.runtime}
+      data: 
+    - rid: 5123654517486256181
+      type: {class: Anything, ns: net.rs64.TexTransTool.TextureAtlas.AtlasScriptableObject,
+        asm: net.rs64.tex-trans-tool.runtime}
+      data: 
+    - rid: 5123654517486256182
+      type: {class: Anything, ns: net.rs64.TexTransTool.TextureAtlas.AtlasScriptableObject,
+        asm: net.rs64.tex-trans-tool.runtime}
+      data: 
+    - rid: 5123654517486256183
+      type: {class: Anything, ns: net.rs64.TexTransTool.TextureAtlas.AtlasScriptableObject,
+        asm: net.rs64.tex-trans-tool.runtime}
+      data: 
+    - rid: 5123654517486256184
+      type: {class: Anything, ns: net.rs64.TexTransTool.TextureAtlas.AtlasScriptableObject,
+        asm: net.rs64.tex-trans-tool.runtime}
+      data: 
+    - rid: 5350865774560935961
+      type: {class: AndComparer, ns: net.rs64.TexTransTool.TextureAtlas.AtlasScriptableObject,
+        asm: net.rs64.tex-trans-tool.runtime}
+      data:
+        Comparers:
+        - rid: 5123654517486256168
+    - rid: 7150698656081904301
+      type: {class: Anything, ns: net.rs64.TexTransTool.TextureAtlas.AtlasScriptableObject,
+        asm: net.rs64.tex-trans-tool.runtime}
+      data: 
